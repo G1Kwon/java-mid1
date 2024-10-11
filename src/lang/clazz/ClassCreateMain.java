@@ -11,4 +11,3 @@ public class ClassCreateMain {
         System.out.println("result = " + result);
     }
 }
-˚
