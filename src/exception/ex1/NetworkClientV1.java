@@ -12,12 +12,12 @@ public class NetworkClientV1 {
 
     public String connect() {
         if (conneccError) {
-            System.out.println(address + "서버 연결 실패");
+            System.out.println(address + " 서버 연결 실패");
             return "connectError";
         }
 
         //Connect Success
-        System.out.println(address + "서버 연결 성공");
+        System.out.println(address + " 서버 연결 성공");
         return "success";
     }
 
@@ -33,7 +33,7 @@ public class NetworkClientV1 {
     }
 
     public void disconnect() {
-        System.out.println(address + "서버 연결 해제");
+        System.out.println(address + " 서버 연결 해제");
     }
 
     public void initError(String data) {

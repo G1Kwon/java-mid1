@@ -16,7 +16,7 @@ public class NetworkClientV2 {
         }
 
         //Connect Success
-        System.out.println(address + "서버 연결 성공");
+        System.out.println(address + " 서버 연결 성공");
     }
 
     public void send(String data) throws NetworkClientExceptionV2 {
@@ -29,7 +29,7 @@ public class NetworkClientV2 {
     }
 
     public void disconnect() {
-        System.out.println(address + "서버 연결 해제");
+        System.out.println(address + " 서버 연결 해제");
     }
 
     public void initError(String data) {
